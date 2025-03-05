@@ -1,0 +1,86 @@
+
+body {
+  display: flex;
+  justify-content: center; 
+  align-items: center;  
+  height: 100vh; 
+  background-color: #000;  
+  margin: 0;  
+  color: white;  
+  flex-direction: column;
+  justify-content: center; 
+}
+.click-here {
+  font-size: 44px;
+  color: #ffffff; 
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.7), 2px 3px 15px #00ff08; 
+  margin-bottom: 30px; 
+}
+.click-here:hover {
+  color: #ffffff; 
+}
+.dollar-bill {
+  width: 300px;
+  height: 150px;
+  background: linear-gradient(135deg, #2c6e49, #0e4e1a); 
+  background-image: url('crime-dark-dollar-drama-wallpaper-preview.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px; 
+  border: 5px solid #00695c; 
+  box-shadow: 1 0 20px rgba(0, 0, 0, 0.2); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.dollar-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  font-size: 22px;
+}
+.dollar-symbol {
+  font-size: 40px;
+  font-weight: bold;
+  color: #eeff00;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.dollar-text {
+  font-size: 16px;
+  font-weight: bold;
+  color: #f8f8f8;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+.dollar-bill:hover {
+  transform: scale(3.1); 
+  box-shadow: 5px 10px 30px rgba(187, 255, 0, 0.4);
+}
+
+
+.dollar-bill:active {
+  transform: scale(0.98);
+}
+
+
+@media (max-width: 600px) {
+  .dollar-bill {
+    width: 250px;
+    height: 120px;
+  }
+  .dollar-symbol {
+    font-size: 35px;
+  }
+  .dollar-text {
+    font-size: 14px;
+  }
+}
