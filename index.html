@@ -6,6 +6,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scarface Login Page</title>
+    <script>
+      
+      window.onload = function() {
+          
+          if (!sessionStorage.getItem("visited")) {
+              sessionStorage.setItem("visited", "true");
+              window.location.href = "login.html";
+          }
+      }
+  </script>
     <link rel="stylesheet" href="style.css">
     
 </head>
