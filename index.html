@@ -33,13 +33,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scarface Login Page</title>
+    <script>
+      
+      window.onload = function() {
+          
+          if (!sessionStorage.getItem("visited")) {
+              sessionStorage.setItem("visited", "true");
+              window.location.href = "login.html";
+          }
+      }
+  </script>
     <link rel="stylesheet" href="style.css">
     
-    
 </head>
-
 <body class="fade-in">
   
+
   <div class="dollar">$</div>
   <div class="dollar2">$</div>
   <div class="overlay">
@@ -57,7 +66,6 @@
       </div>
       <button type="submit" class="login-btn">Login </button>
     </form>
-    
     <p class="register-link">Don't have an account? <a href=""> Be Billionaire</a></p>
   </div>
 </div>
@@ -103,9 +111,19 @@
  <div class="overlay-text39">The World Is Yours</div>
  <div class="overlay-text40">The World Is Yours</div>
  <div class="overlay-text41">The World Is Yours</div>
+
+
+ 
+
+
+
+ 
+ 
+ 
  
     </div>
-  
+    
+    
     
     
 </body>
