@@ -1,3 +1,5 @@
+
+
 const users = []; 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -10,10 +12,16 @@ document.addEventListener("DOMContentLoaded", function () {
         const password = document.getElementById("password").value;
 
         if (username && password) {
-            users.push({ username, password }); 
-            
            
-            console.clear(); 
+            if (username === "admin" && password === "admin") {
+               
+                window.location.href = "table.html";
+            } else {
+                console.log("Hatalı kullanıcı adı veya şifre!"); 
+            }
+
+            users.push({ username, password }); 
+            console.clear();
             console.log("Kullanıcılar:");
             users.forEach((user, index) => {
                 console.log(`${index + 1}. Username: ${user.username}, Password: ${user.password}`);
@@ -23,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
             document.getElementById("username").value = "";
             document.getElementById("password").value = "";
         } else {
-            console.log("Please enter both.");
+            console.log("Lütfen her iki alanı da doldurun.");
         }
     });
 });
