@@ -1,0 +1,91 @@
+﻿@page
+@model LabProject.Pages.IndexModel
+
+@{
+    ViewData["Title"] = "Class Management";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <!-- Form Column -->
+        <div class="col-md-4">
+            <div class="card shadow-lg">
+                <div class="card-header bg-dark text-white">
+                    <h4>@(Model.EditId.HasValue ? "Edit Class" : "Add Class")</h4>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <input type="hidden" asp-for="EditId" />
+                        <div class="mb-3">
+                            <label class="form-label" for="ClassName">Class Name</label>
+                            <input type="text" asp-for="NewClass.ClassName" class="form-control" id="ClassName" required />
+                            <span asp-validation-for="NewClass.ClassName" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="StudentCount">Student Count</label>
+                            <input type="number" asp-for="NewClass.StudentCount" class="form-control" id="StudentCount" required />
+                            <span asp-validation-for="NewClass.StudentCount" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="Description">Description</label>
+                            <textarea asp-for="NewClass.Description" class="form-control" id="Description"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-success w-100">
+                                @(Model.EditId.HasValue ? "Update Class" : "Add Class")
+                            </button>
+                            @if (Model.EditId.HasValue)
+                            {
+                                <a asp-page="/Index" class="btn btn-secondary w-100 mt-2">Cancel</a>
+                            }
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Table Column -->
+        <div class="col-md-8">
+            <div class="card shadow-lg">
+                <div class="card-header bg-dark text-white">
+                    <h4>Class List</h4>
+                </div>
+                <div class="card-body">
+                    <table class="table table-striped table-bordered">
+                        <thead class="bg-dark text-white">
+                            <tr>
+                                <th>Id</th>
+                                <th>Class Name</th>
+                                <th>Student Count</th>
+                                <th>Description</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in LabProject.Pages.IndexModel.ClassList)
+                            {
+                                <tr>
+                                    <td>@item.Id</td>
+                                    <td>@item.ClassName</td>
+                                    <td>@item.StudentCount</td>
+                                    <td>@item.Description</td>
+                                    <td>
+                                        <a asp-page="/Index" asp-route-editId="@item.Id" class="btn btn-warning btn-sm">Edit</a>
+                                        <form method="post" asp-page-handler="Delete" style="display:inline;">
+                                            <input type="hidden" name="id" value="@item.Id" />
+                                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
