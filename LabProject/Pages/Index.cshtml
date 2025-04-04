@@ -7,10 +7,10 @@
 
 <div class="container mt-5">
     <div class="row">
-        <!-- Form Column -->
+   
         <div class="col-md-4">
             <div class="card shadow-lg">
-                <div class="card-header bg-dark text-white">
+                <div class="card-header">
                     <h4>@(Model.EditId.HasValue ? "Edit Class" : "Add Class")</h4>
                 </div>
                 <div class="card-body">
@@ -44,15 +44,15 @@
             </div>
         </div>
 
-        <!-- Table Column -->
+       
         <div class="col-md-8">
             <div class="card shadow-lg">
-                <div class="card-header bg-dark text-white">
+                <div class="card-header">
                     <h4>Class List</h4>
                 </div>
                 <div class="card-body">
                     <table class="table table-striped table-bordered">
-                        <thead class="bg-dark text-white">
+                        <thead>
                             <tr>
                                 <th>Id</th>
                                 <th>Class Name</th>

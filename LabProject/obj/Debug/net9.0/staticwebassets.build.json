@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "icDgGoiY86gggbZrGL4Mscffyb+H3Xjrlv+qlPxyjU4=",
+  "Hash": "C0kM3FlQy3U7wrp5+s/YwV/Ml2mAUIUKstsohgz6iuM=",
   "Source": "LabProject",
   "BasePath": "_content/LabProject",
   "Mode": "Default",
@@ -143,12 +143,12 @@
       "OriginalItemSpec": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\2whracil8j-jrwzq7rs02.gz",
+      "Identity": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\2whracil8j-abxvnic2z1.gz",
       "SourceId": "LabProject",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/LabProject",
-      "RelativePath": "LabProject#[.{fingerprint=jrwzq7rs02}]!.bundle.scp.css.gz",
+      "RelativePath": "LabProject#[.{fingerprint=abxvnic2z1}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -157,8 +157,8 @@
       "RelatedAsset": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LabProject.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "z2gka6cn9j",
-      "Integrity": "azBwOAHbmzJDH5zA9uV41AB71Gizcght7mOf5QIr0OE=",
+      "Fingerprint": "1js4k3eigb",
+      "Integrity": "k7YMHMHaYfjqBbji9qP9POraAJeBVGrqpPE+A6HfXGo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LabProject.bundle.scp.css"
@@ -521,12 +521,12 @@
       "OriginalItemSpec": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\brn67k8lya-jrwzq7rs02.gz",
+      "Identity": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\brn67k8lya-abxvnic2z1.gz",
       "SourceId": "LabProject",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/LabProject",
-      "RelativePath": "LabProject#[.{fingerprint=jrwzq7rs02}]?.styles.css.gz",
+      "RelativePath": "LabProject#[.{fingerprint=abxvnic2z1}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -535,8 +535,8 @@
       "RelatedAsset": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\scopedcss\\bundle\\LabProject.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "z2gka6cn9j",
-      "Integrity": "azBwOAHbmzJDH5zA9uV41AB71Gizcght7mOf5QIr0OE=",
+      "Fingerprint": "1js4k3eigb",
+      "Integrity": "k7YMHMHaYfjqBbji9qP9POraAJeBVGrqpPE+A6HfXGo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\scopedcss\\bundle\\LabProject.styles.css"
@@ -1088,12 +1088,12 @@
       "OriginalItemSpec": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\sygkliv830-b9sayid5wm.gz",
+      "Identity": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\sygkliv830-5aohi2959e.gz",
       "SourceId": "LabProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/LabProject",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=5aohi2959e}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1102,8 +1102,8 @@
       "RelatedAsset": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0suozzrugb",
-      "Integrity": "0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=",
+      "Fingerprint": "926z5ljjbd",
+      "Integrity": "j23bMATTBHHad754t1PL/MDNilPOiGwm6h/LwG0Wz6w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\wwwroot\\css\\site.css"
@@ -1375,8 +1375,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "jrwzq7rs02",
-      "Integrity": "YekDuzP0JfSSYDQTfM63gGVCGIReC5GgbYRM2kv9h6g=",
+      "Fingerprint": "abxvnic2z1",
+      "Integrity": "mgbk+pSPRQPT9m1eU9Mm/nKt4/vDfgYzKXTj1hMYA4I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\scopedcss\\bundle\\LabProject.styles.css"
@@ -1396,8 +1396,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "jrwzq7rs02",
-      "Integrity": "YekDuzP0JfSSYDQTfM63gGVCGIReC5GgbYRM2kv9h6g=",
+      "Fingerprint": "abxvnic2z1",
+      "Integrity": "mgbk+pSPRQPT9m1eU9Mm/nKt4/vDfgYzKXTj1hMYA4I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LabProject.bundle.scp.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "5aohi2959e",
+      "Integrity": "Lf/ev7gc42Yjrd6eCdKFZqp3MqwK0cxtZQvOjwXVhyk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1443,6 +1443,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\wwwroot\\img\\img.jpg",
+      "SourceId": "LabProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\wwwroot\\",
+      "BasePath": "_content/LabProject",
+      "RelativePath": "img/img#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d0ipf8rt7a",
+      "Integrity": "k1llQOiiwYaZ00dnlHZ8b5zXEi55grCj3i5Kj90sisQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\img.jpg"
     },
     {
       "Identity": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\wwwroot\\js\\site.js",
@@ -2728,13 +2749,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\sygkliv830-b9sayid5wm.gz",
+      "Route": "css/site.5aohi2959e.css",
+      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\sygkliv830-5aohi2959e.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003134796238"
+          "Quality": "0.001394700139"
         }
       ],
       "ResponseHeaders": [
@@ -2744,15 +2765,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "716"
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"j23bMATTBHHad754t1PL/MDNilPOiGwm6h/LwG0Wz6w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 09:41:59 GMT"
+          "Value": "Fri, 04 Apr 2025 12:08:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2772,13 +2793,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"Lf/ev7gc42Yjrd6eCdKFZqp3MqwK0cxtZQvOjwXVhyk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "5aohi2959e"
         },
         {
           "Name": "label",
@@ -2786,12 +2807,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-Lf/ev7gc42Yjrd6eCdKFZqp3MqwK0cxtZQvOjwXVhyk="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
+      "Route": "css/site.5aohi2959e.css",
       "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2801,7 +2822,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "1855"
         },
         {
           "Name": "Content-Type",
@@ -2809,11 +2830,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"Lf/ev7gc42Yjrd6eCdKFZqp3MqwK0cxtZQvOjwXVhyk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 09:41:59 GMT"
+          "Value": "Fri, 04 Apr 2025 12:08:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2823,7 +2844,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "5aohi2959e"
         },
         {
           "Name": "label",
@@ -2831,13 +2852,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-Lf/ev7gc42Yjrd6eCdKFZqp3MqwK0cxtZQvOjwXVhyk="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\sygkliv830-b9sayid5wm.gz",
+      "Route": "css/site.5aohi2959e.css.gz",
+      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\sygkliv830-5aohi2959e.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2846,7 +2867,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "716"
         },
         {
           "Name": "Content-Type",
@@ -2854,11 +2875,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"j23bMATTBHHad754t1PL/MDNilPOiGwm6h/LwG0Wz6w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 09:41:59 GMT"
+          "Value": "Fri, 04 Apr 2025 12:08:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2876,7 +2897,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "5aohi2959e"
         },
         {
           "Name": "label",
@@ -2884,18 +2905,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y="
+          "Value": "sha256-j23bMATTBHHad754t1PL/MDNilPOiGwm6h/LwG0Wz6w="
         }
       ]
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\sygkliv830-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\sygkliv830-5aohi2959e.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003134796238"
+          "Quality": "0.001394700139"
         }
       ],
       "ResponseHeaders": [
@@ -2905,15 +2926,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "716"
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"j23bMATTBHHad754t1PL/MDNilPOiGwm6h/LwG0Wz6w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 09:41:59 GMT"
+          "Value": "Fri, 04 Apr 2025 12:08:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2933,13 +2954,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"Lf/ev7gc42Yjrd6eCdKFZqp3MqwK0cxtZQvOjwXVhyk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-Lf/ev7gc42Yjrd6eCdKFZqp3MqwK0cxtZQvOjwXVhyk="
         }
       ]
     },
@@ -2954,7 +2975,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "1855"
         },
         {
           "Name": "Content-Type",
@@ -2962,11 +2983,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"Lf/ev7gc42Yjrd6eCdKFZqp3MqwK0cxtZQvOjwXVhyk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 09:41:59 GMT"
+          "Value": "Fri, 04 Apr 2025 12:08:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2976,13 +2997,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-Lf/ev7gc42Yjrd6eCdKFZqp3MqwK0cxtZQvOjwXVhyk="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\sygkliv830-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\sygkliv830-5aohi2959e.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2991,7 +3012,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "716"
         },
         {
           "Name": "Content-Type",
@@ -2999,11 +3020,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"j23bMATTBHHad754t1PL/MDNilPOiGwm6h/LwG0Wz6w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 09:41:59 GMT"
+          "Value": "Fri, 04 Apr 2025 12:08:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3021,7 +3042,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y="
+          "Value": "sha256-j23bMATTBHHad754t1PL/MDNilPOiGwm6h/LwG0Wz6w="
         }
       ]
     },
@@ -3324,6 +3345,88 @@
       ]
     },
     {
+      "Route": "img/img.d0ipf8rt7a.jpg",
+      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\wwwroot\\img\\img.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "442498"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k1llQOiiwYaZ00dnlHZ8b5zXEi55grCj3i5Kj90sisQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 22:15:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d0ipf8rt7a"
+        },
+        {
+          "Name": "label",
+          "Value": "img/img.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k1llQOiiwYaZ00dnlHZ8b5zXEi55grCj3i5Kj90sisQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/img.jpg",
+      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\wwwroot\\img\\img.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "442498"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k1llQOiiwYaZ00dnlHZ8b5zXEi55grCj3i5Kj90sisQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 22:15:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k1llQOiiwYaZ00dnlHZ8b5zXEi55grCj3i5Kj90sisQ="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\0vky38masl-xtxxf3hu2r.gz",
       "Selectors": [
@@ -3622,13 +3725,13 @@
       ]
     },
     {
-      "Route": "LabProject.bundle.scp.css",
-      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\2whracil8j-jrwzq7rs02.gz",
+      "Route": "LabProject.abxvnic2z1.bundle.scp.css",
+      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\2whracil8j-abxvnic2z1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001858736059"
+          "Quality": "0.001838235294"
         }
       ],
       "ResponseHeaders": [
@@ -3638,19 +3741,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "537"
+          "Value": "543"
         },
         {
           "Name": "ETag",
-          "Value": "\"azBwOAHbmzJDH5zA9uV41AB71Gizcght7mOf5QIr0OE=\""
+          "Value": "\"k7YMHMHaYfjqBbji9qP9POraAJeBVGrqpPE+A6HfXGo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 09:44:31 GMT"
+          "Value": "Fri, 04 Apr 2025 11:47:41 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -3666,18 +3769,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"YekDuzP0JfSSYDQTfM63gGVCGIReC5GgbYRM2kv9h6g=\""
+          "Value": "W/\"mgbk+pSPRQPT9m1eU9Mm/nKt4/vDfgYzKXTj1hMYA4I=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "abxvnic2z1"
+        },
+        {
+          "Name": "label",
+          "Value": "LabProject.bundle.scp.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-YekDuzP0JfSSYDQTfM63gGVCGIReC5GgbYRM2kv9h6g="
+          "Value": "sha256-mgbk+pSPRQPT9m1eU9Mm/nKt4/vDfgYzKXTj1hMYA4I="
         }
       ]
     },
     {
-      "Route": "LabProject.bundle.scp.css",
+      "Route": "LabProject.abxvnic2z1.bundle.scp.css",
       "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LabProject.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3695,121 +3806,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YekDuzP0JfSSYDQTfM63gGVCGIReC5GgbYRM2kv9h6g=\""
+          "Value": "\"mgbk+pSPRQPT9m1eU9Mm/nKt4/vDfgYzKXTj1hMYA4I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 09:44:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-YekDuzP0JfSSYDQTfM63gGVCGIReC5GgbYRM2kv9h6g="
-        }
-      ]
-    },
-    {
-      "Route": "LabProject.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\2whracil8j-jrwzq7rs02.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "537"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"azBwOAHbmzJDH5zA9uV41AB71Gizcght7mOf5QIr0OE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 09:44:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-azBwOAHbmzJDH5zA9uV41AB71Gizcght7mOf5QIr0OE="
-        }
-      ]
-    },
-    {
-      "Route": "LabProject.jrwzq7rs02.bundle.scp.css",
-      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\2whracil8j-jrwzq7rs02.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001858736059"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "537"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"azBwOAHbmzJDH5zA9uV41AB71Gizcght7mOf5QIr0OE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 09:44:31 GMT"
+          "Value": "Fri, 04 Apr 2025 11:47:41 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"YekDuzP0JfSSYDQTfM63gGVCGIReC5GgbYRM2kv9h6g=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jrwzq7rs02"
+          "Value": "abxvnic2z1"
         },
         {
           "Name": "label",
@@ -3817,13 +3828,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-YekDuzP0JfSSYDQTfM63gGVCGIReC5GgbYRM2kv9h6g="
+          "Value": "sha256-mgbk+pSPRQPT9m1eU9Mm/nKt4/vDfgYzKXTj1hMYA4I="
         }
       ]
     },
     {
-      "Route": "LabProject.jrwzq7rs02.bundle.scp.css",
-      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LabProject.bundle.scp.css",
+      "Route": "LabProject.abxvnic2z1.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\2whracil8j-abxvnic2z1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3832,7 +3843,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1128"
+          "Value": "543"
         },
         {
           "Name": "Content-Type",
@@ -3840,56 +3851,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YekDuzP0JfSSYDQTfM63gGVCGIReC5GgbYRM2kv9h6g=\""
+          "Value": "\"k7YMHMHaYfjqBbji9qP9POraAJeBVGrqpPE+A6HfXGo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 09:44:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jrwzq7rs02"
-        },
-        {
-          "Name": "label",
-          "Value": "LabProject.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-YekDuzP0JfSSYDQTfM63gGVCGIReC5GgbYRM2kv9h6g="
-        }
-      ]
-    },
-    {
-      "Route": "LabProject.jrwzq7rs02.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\2whracil8j-jrwzq7rs02.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "537"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"azBwOAHbmzJDH5zA9uV41AB71Gizcght7mOf5QIr0OE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 09:44:31 GMT"
+          "Value": "Fri, 04 Apr 2025 11:47:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3907,7 +3873,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jrwzq7rs02"
+          "Value": "abxvnic2z1"
         },
         {
           "Name": "label",
@@ -3915,18 +3881,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-azBwOAHbmzJDH5zA9uV41AB71Gizcght7mOf5QIr0OE="
+          "Value": "sha256-k7YMHMHaYfjqBbji9qP9POraAJeBVGrqpPE+A6HfXGo="
         }
       ]
     },
     {
-      "Route": "LabProject.jrwzq7rs02.styles.css",
-      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\brn67k8lya-jrwzq7rs02.gz",
+      "Route": "LabProject.abxvnic2z1.styles.css",
+      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\brn67k8lya-abxvnic2z1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001858736059"
+          "Quality": "0.001838235294"
         }
       ],
       "ResponseHeaders": [
@@ -3936,15 +3902,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "537"
+          "Value": "543"
         },
         {
           "Name": "ETag",
-          "Value": "\"azBwOAHbmzJDH5zA9uV41AB71Gizcght7mOf5QIr0OE=\""
+          "Value": "\"k7YMHMHaYfjqBbji9qP9POraAJeBVGrqpPE+A6HfXGo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 09:44:31 GMT"
+          "Value": "Fri, 04 Apr 2025 11:47:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3964,13 +3930,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"YekDuzP0JfSSYDQTfM63gGVCGIReC5GgbYRM2kv9h6g=\""
+          "Value": "W/\"mgbk+pSPRQPT9m1eU9Mm/nKt4/vDfgYzKXTj1hMYA4I=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jrwzq7rs02"
+          "Value": "abxvnic2z1"
         },
         {
           "Name": "label",
@@ -3978,12 +3944,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-YekDuzP0JfSSYDQTfM63gGVCGIReC5GgbYRM2kv9h6g="
+          "Value": "sha256-mgbk+pSPRQPT9m1eU9Mm/nKt4/vDfgYzKXTj1hMYA4I="
         }
       ]
     },
     {
-      "Route": "LabProject.jrwzq7rs02.styles.css",
+      "Route": "LabProject.abxvnic2z1.styles.css",
       "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\scopedcss\\bundle\\LabProject.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4001,11 +3967,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YekDuzP0JfSSYDQTfM63gGVCGIReC5GgbYRM2kv9h6g=\""
+          "Value": "\"mgbk+pSPRQPT9m1eU9Mm/nKt4/vDfgYzKXTj1hMYA4I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 09:44:31 GMT"
+          "Value": "Fri, 04 Apr 2025 11:47:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4015,7 +3981,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jrwzq7rs02"
+          "Value": "abxvnic2z1"
         },
         {
           "Name": "label",
@@ -4023,13 +3989,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-YekDuzP0JfSSYDQTfM63gGVCGIReC5GgbYRM2kv9h6g="
+          "Value": "sha256-mgbk+pSPRQPT9m1eU9Mm/nKt4/vDfgYzKXTj1hMYA4I="
         }
       ]
     },
     {
-      "Route": "LabProject.jrwzq7rs02.styles.css.gz",
-      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\brn67k8lya-jrwzq7rs02.gz",
+      "Route": "LabProject.abxvnic2z1.styles.css.gz",
+      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\brn67k8lya-abxvnic2z1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4038,7 +4004,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "537"
+          "Value": "543"
         },
         {
           "Name": "Content-Type",
@@ -4046,11 +4012,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"azBwOAHbmzJDH5zA9uV41AB71Gizcght7mOf5QIr0OE=\""
+          "Value": "\"k7YMHMHaYfjqBbji9qP9POraAJeBVGrqpPE+A6HfXGo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 09:44:31 GMT"
+          "Value": "Fri, 04 Apr 2025 11:47:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4068,7 +4034,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jrwzq7rs02"
+          "Value": "abxvnic2z1"
         },
         {
           "Name": "label",
@@ -4076,18 +4042,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-azBwOAHbmzJDH5zA9uV41AB71Gizcght7mOf5QIr0OE="
+          "Value": "sha256-k7YMHMHaYfjqBbji9qP9POraAJeBVGrqpPE+A6HfXGo="
         }
       ]
     },
     {
-      "Route": "LabProject.styles.css",
-      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\brn67k8lya-jrwzq7rs02.gz",
+      "Route": "LabProject.bundle.scp.css",
+      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\2whracil8j-abxvnic2z1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001858736059"
+          "Quality": "0.001838235294"
         }
       ],
       "ResponseHeaders": [
@@ -4097,15 +4063,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "537"
+          "Value": "543"
         },
         {
           "Name": "ETag",
-          "Value": "\"azBwOAHbmzJDH5zA9uV41AB71Gizcght7mOf5QIr0OE=\""
+          "Value": "\"k7YMHMHaYfjqBbji9qP9POraAJeBVGrqpPE+A6HfXGo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 09:44:31 GMT"
+          "Value": "Fri, 04 Apr 2025 11:47:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4125,13 +4091,150 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"YekDuzP0JfSSYDQTfM63gGVCGIReC5GgbYRM2kv9h6g=\""
+          "Value": "W/\"mgbk+pSPRQPT9m1eU9Mm/nKt4/vDfgYzKXTj1hMYA4I=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YekDuzP0JfSSYDQTfM63gGVCGIReC5GgbYRM2kv9h6g="
+          "Value": "sha256-mgbk+pSPRQPT9m1eU9Mm/nKt4/vDfgYzKXTj1hMYA4I="
+        }
+      ]
+    },
+    {
+      "Route": "LabProject.bundle.scp.css",
+      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LabProject.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1128"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mgbk+pSPRQPT9m1eU9Mm/nKt4/vDfgYzKXTj1hMYA4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 11:47:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mgbk+pSPRQPT9m1eU9Mm/nKt4/vDfgYzKXTj1hMYA4I="
+        }
+      ]
+    },
+    {
+      "Route": "LabProject.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\2whracil8j-abxvnic2z1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "543"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k7YMHMHaYfjqBbji9qP9POraAJeBVGrqpPE+A6HfXGo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 11:47:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k7YMHMHaYfjqBbji9qP9POraAJeBVGrqpPE+A6HfXGo="
+        }
+      ]
+    },
+    {
+      "Route": "LabProject.styles.css",
+      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\brn67k8lya-abxvnic2z1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001838235294"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "543"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k7YMHMHaYfjqBbji9qP9POraAJeBVGrqpPE+A6HfXGo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 11:47:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"mgbk+pSPRQPT9m1eU9Mm/nKt4/vDfgYzKXTj1hMYA4I=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mgbk+pSPRQPT9m1eU9Mm/nKt4/vDfgYzKXTj1hMYA4I="
         }
       ]
     },
@@ -4154,11 +4257,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YekDuzP0JfSSYDQTfM63gGVCGIReC5GgbYRM2kv9h6g=\""
+          "Value": "\"mgbk+pSPRQPT9m1eU9Mm/nKt4/vDfgYzKXTj1hMYA4I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 09:44:31 GMT"
+          "Value": "Fri, 04 Apr 2025 11:47:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4168,13 +4271,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YekDuzP0JfSSYDQTfM63gGVCGIReC5GgbYRM2kv9h6g="
+          "Value": "sha256-mgbk+pSPRQPT9m1eU9Mm/nKt4/vDfgYzKXTj1hMYA4I="
         }
       ]
     },
     {
       "Route": "LabProject.styles.css.gz",
-      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\brn67k8lya-jrwzq7rs02.gz",
+      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\brn67k8lya-abxvnic2z1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4183,7 +4286,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "537"
+          "Value": "543"
         },
         {
           "Name": "Content-Type",
@@ -4191,11 +4294,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"azBwOAHbmzJDH5zA9uV41AB71Gizcght7mOf5QIr0OE=\""
+          "Value": "\"k7YMHMHaYfjqBbji9qP9POraAJeBVGrqpPE+A6HfXGo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 09:44:31 GMT"
+          "Value": "Fri, 04 Apr 2025 11:47:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4213,7 +4316,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-azBwOAHbmzJDH5zA9uV41AB71Gizcght7mOf5QIr0OE="
+          "Value": "sha256-k7YMHMHaYfjqBbji9qP9POraAJeBVGrqpPE+A6HfXGo="
         }
       ]
     },

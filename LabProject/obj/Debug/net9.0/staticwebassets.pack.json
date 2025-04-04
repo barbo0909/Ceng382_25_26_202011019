@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LabProject.bundle.scp.css",
-      "PackagePath": "staticwebassets\\LabProject.jrwzq7rs02.bundle.scp.css"
+      "PackagePath": "staticwebassets\\LabProject.abxvnic2z1.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\wwwroot\\css\\site.css",
@@ -11,6 +11,10 @@
     {
       "Id": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\wwwroot\\img\\img.jpg",
+      "PackagePath": "staticwebassets\\img\\img.jpg"
     },
     {
       "Id": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\wwwroot\\js\\site.js",

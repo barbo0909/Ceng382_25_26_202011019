@@ -1,31 +1,102 @@
-html {
-  font-size: 14px;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-  margin-bottom: 60px;
+  background: url('/img/img.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
+.card, .table {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(20px); 
+  color: white;
+  border: none;
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+.card-header {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2); 
+  color: white;
+}
+
+.card-body input,
+.card-body textarea {
+  background: rgba(255, 255, 255, 0.1); 
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  outline: none;
+}
+
+
+.card-body input:focus,
+.card-body textarea:focus {
+  background: rgba(255, 255, 255, 0.2); 
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: none; 
+}
+
+
+.card-body input::placeholder,
+.card-body textarea::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
+.table th {
+  background: rgba(255, 255, 255, 0.2); 
+  color: white;
+  border: none;
+}
+
+/* btn-success üzerine gelme durumunda rengin değişmesini engelle lütfen*/
+.btn-success {
+  background-color: #d03ea2; 
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #d03ea2; 
+  color: white; 
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  border: none;
+  color: black;
+}
+
+
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.container {
+  flex: 1;
+}
+
+/* foıoterı nasıl en aşağı çekerim*/
+footer {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
