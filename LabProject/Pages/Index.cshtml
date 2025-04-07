@@ -7,7 +7,8 @@
 
 <div class="container mt-5">
     <div class="row">
-   
+
+       
         <div class="col-md-4">
             <div class="card shadow-lg">
                 <div class="card-header">
@@ -44,48 +45,94 @@
             </div>
         </div>
 
-       
+      
         <div class="col-md-8">
             <div class="card shadow-lg">
                 <div class="card-header">
                     <h4>Class List</h4>
                 </div>
                 <div class="card-body">
-                    <table class="table table-striped table-bordered">
-                        <thead>
-                            <tr>
-                                <th>Id</th>
-                                <th>Class Name</th>
-                                <th>Student Count</th>
-                                <th>Description</th>
-                                <th>Actions</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            @foreach (var item in LabProject.Pages.IndexModel.ClassList)
-                            {
+
+            
+                    <form method="get" class="row g-3 mb-3">
+                        <div class="col-md-5">
+                            <input type="text" name="SearchClassName" value="@Model.SearchClassName" class="form-control" placeholder="Search by Class Name" />
+                        </div>
+                        <div class="col-md-4">
+                            <input type="number" name="MinStudentCount" value="@Model.MinStudentCount" class="form-control" placeholder="Min Student Count" />
+                        </div>
+                        <div class="col-md-3">
+                            <button type="submit" class="btn btn-primary w-100">Filter</button>
+                        </div>
+                    </form>
+
+                  
+                    <div class="table-wrapper">
+                        <table class="table table-striped table-bordered">
+                            <thead>
                                 <tr>
-                                    <td>@item.Id</td>
-                                    <td>@item.ClassName</td>
-                                    <td>@item.StudentCount</td>
-                                    <td>@item.Description</td>
-                                    <td>
-                                        <a asp-page="/Index" asp-route-editId="@item.Id" class="btn btn-warning btn-sm">Edit</a>
-                                        <form method="post" asp-page-handler="Delete" style="display:inline;">
-                                            <input type="hidden" name="id" value="@item.Id" />
-                                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
-                                        </form>
-                                    </td>
+                                    <th>Class Name</th>
+                                    <th>Student Count</th>
+                                    <th>Description</th>
+                                    <th>Actions</th>
                                 </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.FilteredClassList)
+                                {
+                                    <tr>
+                                        <td>@item.ClassName</td>
+                                        <td>@item.StudentCount</td>
+                                        <td>@item.Description</td>
+                                        <td>
+                                            <a asp-page="/Index" asp-route-editId="@item.Id" class="btn btn-warning btn-sm">Edit</a>
+                                            <form method="post" asp-page-handler="Delete" style="display:inline;">
+                                                <input type="hidden" name="id" value="@item.Id" />
+                                                <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <nav>
+                        <ul class="pagination justify-content-center">
+                            @for (int i = 1; i <= Model.TotalPages; i++)
+                            {
+                                <li class="page-item @(Model.PageNumber == i ? "active" : "")">
+                                    <a class="page-link"
+                                       asp-page="/Index"
+                                       asp-route-SearchClassName="@Model.SearchClassName"
+                                       asp-route-MinStudentCount="@Model.MinStudentCount"
+                                       asp-route-PageNumber="@i">@i</a>
+                                </li>
                             }
-                        </tbody>
-                    </table>
+                        </ul>
+                    </nav>
+
                 </div>
             </div>
         </div>
+
     </div>
 </div>
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }
+
+<style>
+    .pagination .page-item.active .page-link {
+        background-color: #198754;
+        border-color: #198754;
+        color: white;
+    }
+
+    /* Sadece tablo kısmı scroll yapsın */
+    .table-wrapper {
+        max-height: calc(100vh - 370px);
+        overflow-y: auto;
+    }
+</style>

@@ -7,11 +7,24 @@
   font-family: "Poppins", sans-serif;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden; /* Sayfanın tamamı scroll etmesin */
+}
+
 body {
   background: url('/img/img.jpg') no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+  overflow: hidden; /* içerik taşmasın lütfen */
 }
 
 .card, .table {
@@ -36,7 +49,6 @@ body {
   outline: none;
 }
 
-
 .card-body input:focus,
 .card-body textarea:focus {
   background: rgba(255, 255, 255, 0.2); 
@@ -45,12 +57,10 @@ body {
   box-shadow: none; 
 }
 
-
 .card-body input::placeholder,
 .card-body textarea::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
-
 
 .table th {
   background: rgba(255, 255, 255, 0.2); 
@@ -58,7 +68,6 @@ body {
   border: none;
 }
 
-/* btn-success üzerine gelme durumunda rengin değişmesini engelle lütfen*/
 .btn-success {
   background-color: #d03ea2; 
   border: none;
@@ -80,23 +89,23 @@ body {
   color: black;
 }
 
-
-html, body {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-
-.container {
-  flex: 1;
-}
-
-/* foıoterı nasıl en aşağı çekerim*/
 footer {
   width: 100%;
   background: rgba(0, 0, 0, 0.8);
   color: white;
   text-align: center;
   padding: 10px;
+}
+
+/* SADECE TABLOYA SCROLL YAP*/
+.table-wrapper {
+  max-height: calc(100vh - 370px); 
+  overflow-y: auto;
+}
+
+
+.pagination .page-item.active .page-link {
+  background-color: #198754;
+  border-color: #198754;
+  color: white;
 }

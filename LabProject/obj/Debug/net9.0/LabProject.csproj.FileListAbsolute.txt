@@ -79,6 +79,8 @@ C:\Users\barba\OneDrive\Resimler\Masaüstü\Ceng382\Ceng382_25_26_202011019\LabP
 C:\Users\barba\OneDrive\Resimler\Masaüstü\Ceng382\Ceng382_25_26_202011019\LabProject\obj\Debug\net9.0\compressed\z6tk9114ht-muycvpuwrr.gz
 C:\Users\barba\OneDrive\Resimler\Masaüstü\Ceng382\Ceng382_25_26_202011019\LabProject\obj\Debug\net9.0\compressed\tqf530ebou-87fc7y1x7t.gz
 C:\Users\barba\OneDrive\Resimler\Masaüstü\Ceng382\Ceng382_25_26_202011019\LabProject\obj\Debug\net9.0\compressed\gpdizw2ap6-mlv21k5csn.gz
+C:\Users\barba\OneDrive\Resimler\Masaüstü\Ceng382\Ceng382_25_26_202011019\LabProject\obj\Debug\net9.0\compressed\brn67k8lya-abxvnic2z1.gz
+C:\Users\barba\OneDrive\Resimler\Masaüstü\Ceng382\Ceng382_25_26_202011019\LabProject\obj\Debug\net9.0\compressed\2whracil8j-abxvnic2z1.gz
 C:\Users\barba\OneDrive\Resimler\Masaüstü\Ceng382\Ceng382_25_26_202011019\LabProject\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\barba\OneDrive\Resimler\Masaüstü\Ceng382\Ceng382_25_26_202011019\LabProject\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\barba\OneDrive\Resimler\Masaüstü\Ceng382\Ceng382_25_26_202011019\LabProject\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -93,6 +95,4 @@ C:\Users\barba\OneDrive\Resimler\Masaüstü\Ceng382\Ceng382_25_26_202011019\LabP
 C:\Users\barba\OneDrive\Resimler\Masaüstü\Ceng382\Ceng382_25_26_202011019\LabProject\obj\Debug\net9.0\LabProject.pdb
 C:\Users\barba\OneDrive\Resimler\Masaüstü\Ceng382\Ceng382_25_26_202011019\LabProject\obj\Debug\net9.0\LabProject.genruntimeconfig.cache
 C:\Users\barba\OneDrive\Resimler\Masaüstü\Ceng382\Ceng382_25_26_202011019\LabProject\obj\Debug\net9.0\ref\LabProject.dll
-C:\Users\barba\OneDrive\Resimler\Masaüstü\Ceng382\Ceng382_25_26_202011019\LabProject\obj\Debug\net9.0\compressed\brn67k8lya-abxvnic2z1.gz
-C:\Users\barba\OneDrive\Resimler\Masaüstü\Ceng382\Ceng382_25_26_202011019\LabProject\obj\Debug\net9.0\compressed\2whracil8j-abxvnic2z1.gz
-C:\Users\barba\OneDrive\Resimler\Masaüstü\Ceng382\Ceng382_25_26_202011019\LabProject\obj\Debug\net9.0\compressed\sygkliv830-5aohi2959e.gz
+C:\Users\barba\OneDrive\Resimler\Masaüstü\Ceng382\Ceng382_25_26_202011019\LabProject\obj\Debug\net9.0\compressed\sygkliv830-1qdxabkbj9.gz
