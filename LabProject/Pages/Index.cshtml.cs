@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using LabProject.Models;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using LabProject.Helpers;
 
 namespace LabProject.Pages
 {
@@ -38,9 +40,13 @@ namespace LabProject.Pages
         public int PageSize { get; set; } = 10;
         public int TotalPages { get; set; }
 
+        [BindProperty(SupportsGet = true)]
+        public string? SelectedRowIds { get; set; }  
+
+        public List<int> PersistedSelectedRowIds { get; set; } = new(); 
+
         static IndexModel()
         {
-            
             for (int i = 1; i <= 100; i++)
             {
                 ClassList.Add(new ClassInformationModel
@@ -95,6 +101,21 @@ namespace LabProject.Pages
                 .Skip((PageNumber - 1) * PageSize)
                 .Take(PageSize)
                 .ToList();
+
+            if (!FilteredClassList.Any())
+            {
+                FilteredClassList = query.ToList();
+            }
+
+            // Seçilen satır ID'lerini tekrar oku lütfen
+            if (!string.IsNullOrWhiteSpace(SelectedRowIds))
+            {
+                PersistedSelectedRowIds = SelectedRowIds
+                    .Split(',')
+                    .Select(idStr => int.TryParse(idStr, out int id) ? id : -1)
+                    .Where(id => id > 0)
+                    .ToList();
+            }
         }
 
         public IActionResult OnPost()
@@ -129,6 +150,33 @@ namespace LabProject.Pages
                 ClassList.Remove(item);
 
             return RedirectToPage();
+        }
+
+        public IActionResult OnPostExport(string SelectedColumns, string SelectedRowIds)
+        {
+            List<string> columns = string.IsNullOrWhiteSpace(SelectedColumns)
+                ? new List<string> { "Id", "ClassName", "StudentCount", "Description" }
+                : SelectedColumns.Split(',').ToList();
+
+            List<int> selectedIds = string.IsNullOrWhiteSpace(SelectedRowIds)
+                ? new List<int>()
+                : SelectedRowIds.Split(',').Select(int.Parse).ToList();
+
+            List<ClassInformationModel> selectedData = selectedIds.Any()
+                ? ClassList.Where(c => selectedIds.Contains(c.Id)).ToList()
+                : ClassList.ToList();
+
+            var exportData = selectedData.Select(c => new ClassInformationTable
+            {
+                Id = c.Id,
+                ClassName = c.ClassName,
+                StudentCount = c.StudentCount,
+                Description = c.Description
+            }).ToList();
+
+            string json = Utils.Instance.ExportToJson(exportData, columns);
+            byte[] jsonBytes = Encoding.UTF8.GetBytes(json);
+            return File(jsonBytes, "application/json", "class_export.json");
         }
     }
 }

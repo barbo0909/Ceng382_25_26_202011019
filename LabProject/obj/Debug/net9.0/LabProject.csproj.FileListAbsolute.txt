@@ -95,4 +95,4 @@ C:\Users\barba\OneDrive\Resimler\Masaüstü\Ceng382\Ceng382_25_26_202011019\LabP
 C:\Users\barba\OneDrive\Resimler\Masaüstü\Ceng382\Ceng382_25_26_202011019\LabProject\obj\Debug\net9.0\LabProject.pdb
 C:\Users\barba\OneDrive\Resimler\Masaüstü\Ceng382\Ceng382_25_26_202011019\LabProject\obj\Debug\net9.0\LabProject.genruntimeconfig.cache
 C:\Users\barba\OneDrive\Resimler\Masaüstü\Ceng382\Ceng382_25_26_202011019\LabProject\obj\Debug\net9.0\ref\LabProject.dll
-C:\Users\barba\OneDrive\Resimler\Masaüstü\Ceng382\Ceng382_25_26_202011019\LabProject\obj\Debug\net9.0\compressed\sygkliv830-1qdxabkbj9.gz
+C:\Users\barba\OneDrive\Resimler\Masaüstü\Ceng382\Ceng382_25_26_202011019\LabProject\obj\Debug\net9.0\compressed\sygkliv830-2pqdpu6dlh.gz

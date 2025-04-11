@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PAgYLgMNiMdkyWWPQtJfQO72AyRBW9qwJv8KFT61eHs=",
+  "Hash": "ctOa60s8RrYPObTBKSNZbWvyZx4RjGed1X6kXV7Zw7c=",
   "Source": "LabProject",
   "BasePath": "_content/LabProject",
   "Mode": "Default",
@@ -1088,12 +1088,12 @@
       "OriginalItemSpec": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\sygkliv830-1qdxabkbj9.gz",
+      "Identity": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\sygkliv830-2pqdpu6dlh.gz",
       "SourceId": "LabProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/LabProject",
-      "RelativePath": "css/site#[.{fingerprint=1qdxabkbj9}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=2pqdpu6dlh}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1102,8 +1102,8 @@
       "RelatedAsset": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0ryr155lg1",
-      "Integrity": "VLJS2viOVTiWlNxFuGMBS6lrxc3moddtx0yC219Fgs8=",
+      "Fingerprint": "exmorlye3k",
+      "Integrity": "EpkfXHFajrom9h+IRePFZ0J6bAjWgI8bcS/sBVObTBU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "1qdxabkbj9",
-      "Integrity": "uRnOLLmdbzMtbzQhbQ/it4FBZ8G7koDz/N0CojsL6bQ=",
+      "Fingerprint": "2pqdpu6dlh",
+      "Integrity": "ZllWijTX3lws7N6ALukSGAIOHkU7A1cvqNnwXcpZTCo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2749,13 +2749,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.1qdxabkbj9.css",
-      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\sygkliv830-1qdxabkbj9.gz",
+      "Route": "css/site.2pqdpu6dlh.css",
+      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\sygkliv830-2pqdpu6dlh.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001234567901"
+          "Quality": "0.001141552511"
         }
       ],
       "ResponseHeaders": [
@@ -2765,15 +2765,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "809"
+          "Value": "875"
         },
         {
           "Name": "ETag",
-          "Value": "\"VLJS2viOVTiWlNxFuGMBS6lrxc3moddtx0yC219Fgs8=\""
+          "Value": "\"EpkfXHFajrom9h+IRePFZ0J6bAjWgI8bcS/sBVObTBU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 20:54:08 GMT"
+          "Value": "Thu, 10 Apr 2025 22:55:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2793,13 +2793,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"uRnOLLmdbzMtbzQhbQ/it4FBZ8G7koDz/N0CojsL6bQ=\""
+          "Value": "W/\"ZllWijTX3lws7N6ALukSGAIOHkU7A1cvqNnwXcpZTCo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1qdxabkbj9"
+          "Value": "2pqdpu6dlh"
         },
         {
           "Name": "label",
@@ -2807,12 +2807,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-uRnOLLmdbzMtbzQhbQ/it4FBZ8G7koDz/N0CojsL6bQ="
+          "Value": "sha256-ZllWijTX3lws7N6ALukSGAIOHkU7A1cvqNnwXcpZTCo="
         }
       ]
     },
     {
-      "Route": "css/site.1qdxabkbj9.css",
+      "Route": "css/site.2pqdpu6dlh.css",
       "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2822,7 +2822,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2085"
+          "Value": "2295"
         },
         {
           "Name": "Content-Type",
@@ -2830,11 +2830,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uRnOLLmdbzMtbzQhbQ/it4FBZ8G7koDz/N0CojsL6bQ=\""
+          "Value": "\"ZllWijTX3lws7N6ALukSGAIOHkU7A1cvqNnwXcpZTCo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 20:54:08 GMT"
+          "Value": "Thu, 10 Apr 2025 22:55:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2844,7 +2844,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1qdxabkbj9"
+          "Value": "2pqdpu6dlh"
         },
         {
           "Name": "label",
@@ -2852,13 +2852,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-uRnOLLmdbzMtbzQhbQ/it4FBZ8G7koDz/N0CojsL6bQ="
+          "Value": "sha256-ZllWijTX3lws7N6ALukSGAIOHkU7A1cvqNnwXcpZTCo="
         }
       ]
     },
     {
-      "Route": "css/site.1qdxabkbj9.css.gz",
-      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\sygkliv830-1qdxabkbj9.gz",
+      "Route": "css/site.2pqdpu6dlh.css.gz",
+      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\sygkliv830-2pqdpu6dlh.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2867,7 +2867,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "809"
+          "Value": "875"
         },
         {
           "Name": "Content-Type",
@@ -2875,11 +2875,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VLJS2viOVTiWlNxFuGMBS6lrxc3moddtx0yC219Fgs8=\""
+          "Value": "\"EpkfXHFajrom9h+IRePFZ0J6bAjWgI8bcS/sBVObTBU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 20:54:08 GMT"
+          "Value": "Thu, 10 Apr 2025 22:55:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2897,7 +2897,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1qdxabkbj9"
+          "Value": "2pqdpu6dlh"
         },
         {
           "Name": "label",
@@ -2905,18 +2905,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-VLJS2viOVTiWlNxFuGMBS6lrxc3moddtx0yC219Fgs8="
+          "Value": "sha256-EpkfXHFajrom9h+IRePFZ0J6bAjWgI8bcS/sBVObTBU="
         }
       ]
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\sygkliv830-1qdxabkbj9.gz",
+      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\sygkliv830-2pqdpu6dlh.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001234567901"
+          "Quality": "0.001141552511"
         }
       ],
       "ResponseHeaders": [
@@ -2926,15 +2926,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "809"
+          "Value": "875"
         },
         {
           "Name": "ETag",
-          "Value": "\"VLJS2viOVTiWlNxFuGMBS6lrxc3moddtx0yC219Fgs8=\""
+          "Value": "\"EpkfXHFajrom9h+IRePFZ0J6bAjWgI8bcS/sBVObTBU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 20:54:08 GMT"
+          "Value": "Thu, 10 Apr 2025 22:55:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2954,13 +2954,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"uRnOLLmdbzMtbzQhbQ/it4FBZ8G7koDz/N0CojsL6bQ=\""
+          "Value": "W/\"ZllWijTX3lws7N6ALukSGAIOHkU7A1cvqNnwXcpZTCo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-uRnOLLmdbzMtbzQhbQ/it4FBZ8G7koDz/N0CojsL6bQ="
+          "Value": "sha256-ZllWijTX3lws7N6ALukSGAIOHkU7A1cvqNnwXcpZTCo="
         }
       ]
     },
@@ -2975,7 +2975,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2085"
+          "Value": "2295"
         },
         {
           "Name": "Content-Type",
@@ -2983,11 +2983,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uRnOLLmdbzMtbzQhbQ/it4FBZ8G7koDz/N0CojsL6bQ=\""
+          "Value": "\"ZllWijTX3lws7N6ALukSGAIOHkU7A1cvqNnwXcpZTCo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 20:54:08 GMT"
+          "Value": "Thu, 10 Apr 2025 22:55:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2997,13 +2997,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-uRnOLLmdbzMtbzQhbQ/it4FBZ8G7koDz/N0CojsL6bQ="
+          "Value": "sha256-ZllWijTX3lws7N6ALukSGAIOHkU7A1cvqNnwXcpZTCo="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\sygkliv830-1qdxabkbj9.gz",
+      "AssetFile": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\Debug\\net9.0\\compressed\\sygkliv830-2pqdpu6dlh.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3012,7 +3012,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "809"
+          "Value": "875"
         },
         {
           "Name": "Content-Type",
@@ -3020,11 +3020,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VLJS2viOVTiWlNxFuGMBS6lrxc3moddtx0yC219Fgs8=\""
+          "Value": "\"EpkfXHFajrom9h+IRePFZ0J6bAjWgI8bcS/sBVObTBU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 20:54:08 GMT"
+          "Value": "Thu, 10 Apr 2025 22:55:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3042,7 +3042,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-VLJS2viOVTiWlNxFuGMBS6lrxc3moddtx0yC219Fgs8="
+          "Value": "sha256-EpkfXHFajrom9h+IRePFZ0J6bAjWgI8bcS/sBVObTBU="
         }
       ]
     },
@@ -3749,7 +3749,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 20:41:55 GMT"
+          "Value": "Thu, 10 Apr 2025 16:39:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3810,7 +3810,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 20:41:55 GMT"
+          "Value": "Thu, 10 Apr 2025 16:39:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3855,7 +3855,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 20:41:55 GMT"
+          "Value": "Thu, 10 Apr 2025 16:39:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3910,7 +3910,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 20:41:55 GMT"
+          "Value": "Thu, 10 Apr 2025 16:39:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3971,7 +3971,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 20:41:55 GMT"
+          "Value": "Thu, 10 Apr 2025 16:39:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4016,7 +4016,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 20:41:55 GMT"
+          "Value": "Thu, 10 Apr 2025 16:39:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4071,7 +4071,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 20:41:55 GMT"
+          "Value": "Thu, 10 Apr 2025 16:39:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4124,7 +4124,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 20:41:55 GMT"
+          "Value": "Thu, 10 Apr 2025 16:39:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4161,7 +4161,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 20:41:55 GMT"
+          "Value": "Thu, 10 Apr 2025 16:39:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4208,7 +4208,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 20:41:55 GMT"
+          "Value": "Thu, 10 Apr 2025 16:39:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4261,7 +4261,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 20:41:55 GMT"
+          "Value": "Thu, 10 Apr 2025 16:39:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4298,7 +4298,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 20:41:55 GMT"
+          "Value": "Thu, 10 Apr 2025 16:39:59 GMT"
         },
         {
           "Name": "Cache-Control",

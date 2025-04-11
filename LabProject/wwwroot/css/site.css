@@ -109,3 +109,11 @@ footer {
   border-color: #198754;
   color: white;
 }
+tr.highlight-row {
+  background-color: rgba(246, 9, 199, 0.3) !important; /* light violet */
+  border: 1px solid #fff;
+}
+tr.highlight-row td {
+  background-color: #ffe0f7 !important;
+  color: black; 
+}
