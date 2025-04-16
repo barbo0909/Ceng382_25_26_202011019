@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\LabProject.csproj": {}
+    "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25-26_202011019\\LabProject\\LabProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\LabProject.csproj": {
+    "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25-26_202011019\\LabProject\\LabProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\LabProject.csproj",
+        "projectUniqueName": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25-26_202011019\\LabProject\\LabProject.csproj",
         "projectName": "LabProject",
-        "projectPath": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\LabProject.csproj",
+        "projectPath": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25-26_202011019\\LabProject\\LabProject.csproj",
         "packagesPath": "C:\\Users\\barba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25_26_202011019\\LabProject\\obj\\",
+        "outputPath": "C:\\Users\\barba\\OneDrive\\Resimler\\Masaüstü\\Ceng382\\Ceng382_25-26_202011019\\LabProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\barba\\AppData\\Roaming\\NuGet\\NuGet.Config"
