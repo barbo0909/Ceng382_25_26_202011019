@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using LabProject.Helpers;
+using System.Threading.Tasks;
 
 namespace LabProject.Pages
 {
@@ -41,9 +42,17 @@ namespace LabProject.Pages
         public int TotalPages { get; set; }
 
         [BindProperty(SupportsGet = true)]
-        public string? SelectedRowIds { get; set; }  
+        public string? SelectedRowIds { get; set; }
 
-        public List<int> PersistedSelectedRowIds { get; set; } = new(); 
+        public List<int> PersistedSelectedRowIds { get; set; } = new();
+
+        private bool IsUserAuthenticated()
+        {
+            return HttpContext.Session.GetString("username") != null &&
+                   Request.Cookies["username"] == HttpContext.Session.GetString("username") &&
+                   Request.Cookies["token"] == HttpContext.Session.GetString("token") &&
+                   Request.Cookies["session_id"] == HttpContext.Session.GetString("session_id");
+        }
 
         static IndexModel()
         {
@@ -59,8 +68,14 @@ namespace LabProject.Pages
             }
         }
 
-        public void OnGet(int? editId)
+        public async Task<IActionResult> OnGetAsync(int? editId)
         {
+            if (!IsUserAuthenticated())
+            {
+                TempData["ErrorMessage"] = "Username or password is incorrect.";
+                return RedirectToPage("/Login");
+            }
+
             if (editId.HasValue)
             {
                 var classToEdit = ClassList.FirstOrDefault(c => c.Id == editId.Value);
@@ -107,7 +122,6 @@ namespace LabProject.Pages
                 FilteredClassList = query.ToList();
             }
 
-            // Seçilen satır ID'lerini tekrar oku lütfen
             if (!string.IsNullOrWhiteSpace(SelectedRowIds))
             {
                 PersistedSelectedRowIds = SelectedRowIds
@@ -116,10 +130,18 @@ namespace LabProject.Pages
                     .Where(id => id > 0)
                     .ToList();
             }
+
+            return Page();
         }
 
-        public IActionResult OnPost()
+        public async Task<IActionResult> OnPostAsync()
         {
+            if (!IsUserAuthenticated())
+            {
+                TempData["ErrorMessage"] = "Username or password is incorrect.";
+                return RedirectToPage("/Login");
+            }
+
             if (!ModelState.IsValid)
                 return Page();
 
@@ -143,8 +165,14 @@ namespace LabProject.Pages
             return RedirectToPage();
         }
 
-        public IActionResult OnPostDelete(int id)
+        public async Task<IActionResult> OnPostDeleteAsync(int id)
         {
+            if (!IsUserAuthenticated())
+            {
+                TempData["ErrorMessage"] = "Username or password is incorrect.";
+                return RedirectToPage("/Login");
+            }
+
             var item = ClassList.FirstOrDefault(c => c.Id == id);
             if (item != null)
                 ClassList.Remove(item);
@@ -152,8 +180,14 @@ namespace LabProject.Pages
             return RedirectToPage();
         }
 
-        public IActionResult OnPostExport(string SelectedColumns, string SelectedRowIds)
+        public async Task<IActionResult> OnPostExportAsync(string SelectedColumns, string SelectedRowIds)
         {
+            if (!IsUserAuthenticated())
+            {
+                TempData["ErrorMessage"] = "Username or password is incorrect.";
+                return RedirectToPage("/Login");
+            }
+
             List<string> columns = string.IsNullOrWhiteSpace(SelectedColumns)
                 ? new List<string> { "Id", "ClassName", "StudentCount", "Description" }
                 : SelectedColumns.Split(',').ToList();

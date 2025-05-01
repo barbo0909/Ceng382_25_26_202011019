@@ -1,0 +1,47 @@
+@page
+@model LabProject.Pages.LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - LabProject</title>
+    <link href="/css/login.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="full-page">
+        <div class="wrapper">
+            <h1>Login</h1>
+            <form method="post">
+                <div class="input-box">
+                    <input type="text" asp-for="Username" placeholder="Username" required />
+                    <i class="fas fa-user"></i>
+                    <span asp-validation-for="Username" class="text-danger"></span>
+                </div>
+                <div class="input-box">
+                    <input type="password" asp-for="Password" placeholder="Password" required />
+                    <i class="fas fa-lock"></i>
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox" /> Remember Me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+                {
+                    <div class="text-danger">@Model.ErrorMessage</div>
+                }
+            </form>
+            <div class="register-link">
+                <p>Don't have an account? <a href="/Register">Register here</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
