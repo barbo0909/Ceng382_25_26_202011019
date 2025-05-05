@@ -128,14 +128,15 @@ namespace LabProject.Pages
                 }
             }
             else
-            {
-                var newClass = new Class
-                {
-                    Name = NewClass.Name,
-                    PersonCount = NewClass.PersonCount, 
-                    Description = NewClass.Description,
-                    IsActive = true
-                };
+{
+    var newClass = new Class
+    {
+        Name = NewClass.Name,
+        PersonCount = NewClass.PersonCount, 
+        Description = NewClass.Description,
+        IsActive = NewClass.IsActive 
+    };
+
                 _context.Classes.Add(newClass);
                 await _context.SaveChangesAsync();
             }
