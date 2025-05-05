@@ -1,33 +1,30 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using LabProject.Models;
-using System.Collections.Generic;
-using System.Linq;
+using LabProject.Data;
 using System.Text;
-using LabProject.Helpers;
-using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
+ using LabProject.Helpers; 
 
 namespace LabProject.Pages
 {
-    public class ClassInformationModel
-    {
-        public int Id { get; set; }
-        public string ClassName { get; set; } = string.Empty;
-        public int StudentCount { get; set; }
-        public string? Description { get; set; }
-    }
-
     public class IndexModel : PageModel
     {
-        public static List<ClassInformationModel> ClassList { get; set; } = new();
+        private readonly SchoolDbContext _context;
+
+        public IndexModel(SchoolDbContext context)
+        {
+            _context = context;
+        }
 
         [BindProperty]
-        public ClassInformationModel NewClass { get; set; } = new();
+        public Class NewClass { get; set; } = new();
 
         [BindProperty]
         public int? EditId { get; set; }
 
-        public List<ClassInformationTable> FilteredClassList { get; set; } = new();
+        public List<Class> FilteredClassList { get; set; } = new();
 
         [BindProperty(SupportsGet = true)]
         public string? SearchClassName { get; set; }
@@ -54,20 +51,6 @@ namespace LabProject.Pages
                    Request.Cookies["session_id"] == HttpContext.Session.GetString("session_id");
         }
 
-        static IndexModel()
-        {
-            for (int i = 1; i <= 100; i++)
-            {
-                ClassList.Add(new ClassInformationModel
-                {
-                    Id = i,
-                    ClassName = $"Class {i}",
-                    StudentCount = 10 + (i % 30),
-                    Description = $"Sample description for Class {i}"
-                });
-            }
-        }
-
         public async Task<IActionResult> OnGetAsync(int? editId)
         {
             if (!IsUserAuthenticated())
@@ -76,50 +59,37 @@ namespace LabProject.Pages
                 return RedirectToPage("/Login");
             }
 
+            var query = _context.Classes.AsQueryable();
+
+            if (!string.IsNullOrWhiteSpace(SearchClassName))
+                query = query.Where(c => c.Name.Contains(SearchClassName));
+
+            if (MinStudentCount.HasValue)
+                query = query.Where(c => c.PersonCount >= MinStudentCount.Value);
+
+            int totalItems = await query.CountAsync();
+            TotalPages = (int)Math.Ceiling(totalItems / (double)PageSize);
+
+            FilteredClassList = await query
+                .Skip((PageNumber - 1) * PageSize)
+                .Take(PageSize)
+                .ToListAsync();
+
             if (editId.HasValue)
             {
-                var classToEdit = ClassList.FirstOrDefault(c => c.Id == editId.Value);
+                var classToEdit = await _context.Classes.FindAsync(editId.Value);
                 if (classToEdit != null)
                 {
-                    NewClass = new ClassInformationModel
+                    NewClass = new Class
                     {
-                        ClassName = classToEdit.ClassName,
-                        StudentCount = classToEdit.StudentCount,
-                        Description = classToEdit.Description
+                        Id = classToEdit.Id,
+                        Name = classToEdit.Name,
+                        PersonCount = classToEdit.PersonCount,
+                        Description = classToEdit.Description,
+                        IsActive = classToEdit.IsActive
                     };
                     EditId = editId;
                 }
-            }
-
-            var query = ClassList.Select(c => new ClassInformationTable
-            {
-                Id = c.Id,
-                ClassName = c.ClassName,
-                StudentCount = c.StudentCount,
-                Description = c.Description
-            });
-
-            if (!string.IsNullOrWhiteSpace(SearchClassName))
-            {
-                query = query.Where(c => c.ClassName.Contains(SearchClassName, System.StringComparison.OrdinalIgnoreCase));
-            }
-
-            if (MinStudentCount.HasValue)
-            {
-                query = query.Where(c => c.StudentCount >= MinStudentCount.Value);
-            }
-
-            int totalItems = query.Count();
-            TotalPages = (int)System.Math.Ceiling(totalItems / (double)PageSize);
-
-            FilteredClassList = query
-                .Skip((PageNumber - 1) * PageSize)
-                .Take(PageSize)
-                .ToList();
-
-            if (!FilteredClassList.Any())
-            {
-                FilteredClassList = query.ToList();
             }
 
             if (!string.IsNullOrWhiteSpace(SelectedRowIds))
@@ -147,19 +117,27 @@ namespace LabProject.Pages
 
             if (EditId.HasValue)
             {
-                var existing = ClassList.FirstOrDefault(c => c.Id == EditId.Value);
+                var existing = await _context.Classes.FindAsync(EditId.Value);
                 if (existing != null)
                 {
-                    existing.ClassName = NewClass.ClassName;
-                    existing.StudentCount = NewClass.StudentCount;
+                    existing.Name = NewClass.Name;
+                    existing.PersonCount = NewClass.PersonCount;
                     existing.Description = NewClass.Description;
+                    existing.IsActive = NewClass.IsActive;
+                    await _context.SaveChangesAsync();
                 }
             }
             else
             {
-                int nextId = ClassList.Any() ? ClassList.Max(c => c.Id) + 1 : 1;
-                NewClass.Id = nextId;
-                ClassList.Add(NewClass);
+                var newClass = new Class
+                {
+                    Name = NewClass.Name,
+                    PersonCount = NewClass.PersonCount, 
+                    Description = NewClass.Description,
+                    IsActive = true
+                };
+                _context.Classes.Add(newClass);
+                await _context.SaveChangesAsync();
             }
 
             return RedirectToPage();
@@ -173,9 +151,12 @@ namespace LabProject.Pages
                 return RedirectToPage("/Login");
             }
 
-            var item = ClassList.FirstOrDefault(c => c.Id == id);
+            var item = await _context.Classes.FindAsync(id);
             if (item != null)
-                ClassList.Remove(item);
+            {
+                _context.Classes.Remove(item);
+                await _context.SaveChangesAsync();
+            }
 
             return RedirectToPage();
         }
@@ -189,26 +170,21 @@ namespace LabProject.Pages
             }
 
             List<string> columns = string.IsNullOrWhiteSpace(SelectedColumns)
-                ? new List<string> { "Id", "ClassName", "StudentCount", "Description" }
+                ? new List<string> { "Id", "Name", "PersonCount", "Description", "IsActive" }
                 : SelectedColumns.Split(',').ToList();
 
             List<int> selectedIds = string.IsNullOrWhiteSpace(SelectedRowIds)
                 ? new List<int>()
                 : SelectedRowIds.Split(',').Select(int.Parse).ToList();
 
-            List<ClassInformationModel> selectedData = selectedIds.Any()
-                ? ClassList.Where(c => selectedIds.Contains(c.Id)).ToList()
-                : ClassList.ToList();
+            var query = _context.Classes.AsQueryable();
 
-            var exportData = selectedData.Select(c => new ClassInformationTable
-            {
-                Id = c.Id,
-                ClassName = c.ClassName,
-                StudentCount = c.StudentCount,
-                Description = c.Description
-            }).ToList();
+            if (selectedIds.Any())
+                query = query.Where(c => selectedIds.Contains(c.Id));
 
-            string json = Utils.Instance.ExportToJson(exportData, columns);
+            var exportData = await query.ToListAsync();
+
+            string json = Utils.Instance.ExportToJson(exportData, columns); // TODO: Utils sınıfını kontrol et
             byte[] jsonBytes = Encoding.UTF8.GetBytes(json);
             return File(jsonBytes, "application/json", "class_export.json");
         }

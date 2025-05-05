@@ -1,4 +1,11 @@
+using Microsoft.EntityFrameworkCore;
+using LabProject.Data;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<SchoolDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SchoolDbConnection")));
+    
 
 builder.Services.AddRazorPages();
 builder.Services.AddDistributedMemoryCache();
