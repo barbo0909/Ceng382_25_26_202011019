@@ -5,7 +5,7 @@ using LabProject.Data;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
- using LabProject.Helpers; 
+using LabProject.Helpers;
 
 namespace LabProject.Pages
 {
@@ -59,7 +59,9 @@ namespace LabProject.Pages
                 return RedirectToPage("/Login");
             }
 
-            var query = _context.Classes.AsQueryable();
+            var query = _context.Classes
+                .Where(c => c.IsActive) 
+                .AsQueryable();
 
             if (!string.IsNullOrWhiteSpace(SearchClassName))
                 query = query.Where(c => c.Name.Contains(SearchClassName));
@@ -123,19 +125,19 @@ namespace LabProject.Pages
                     existing.Name = NewClass.Name;
                     existing.PersonCount = NewClass.PersonCount;
                     existing.Description = NewClass.Description;
-                    existing.IsActive = NewClass.IsActive;
+                    existing.IsActive = true; 
                     await _context.SaveChangesAsync();
                 }
             }
             else
-{
-    var newClass = new Class
-    {
-        Name = NewClass.Name,
-        PersonCount = NewClass.PersonCount, 
-        Description = NewClass.Description,
-        IsActive = NewClass.IsActive 
-    };
+            {
+                var newClass = new Class
+                {
+                    Name = NewClass.Name,
+                    PersonCount = NewClass.PersonCount,
+                    Description = NewClass.Description,
+                    IsActive = true 
+                };
 
                 _context.Classes.Add(newClass);
                 await _context.SaveChangesAsync();
@@ -155,7 +157,7 @@ namespace LabProject.Pages
             var item = await _context.Classes.FindAsync(id);
             if (item != null)
             {
-                _context.Classes.Remove(item);
+                item.IsActive = false; // Fiziksel silme yerine pasif yap
                 await _context.SaveChangesAsync();
             }
 
@@ -178,14 +180,16 @@ namespace LabProject.Pages
                 ? new List<int>()
                 : SelectedRowIds.Split(',').Select(int.Parse).ToList();
 
-            var query = _context.Classes.AsQueryable();
+            var query = _context.Classes
+                .Where(c => c.IsActive) 
+                .AsQueryable();
 
             if (selectedIds.Any())
                 query = query.Where(c => selectedIds.Contains(c.Id));
 
             var exportData = await query.ToListAsync();
 
-            string json = Utils.Instance.ExportToJson(exportData, columns); // TODO: Utils sınıfını kontrol et
+            string json = Utils.Instance.ExportToJson(exportData, columns);
             byte[] jsonBytes = Encoding.UTF8.GetBytes(json);
             return File(jsonBytes, "application/json", "class_export.json");
         }
