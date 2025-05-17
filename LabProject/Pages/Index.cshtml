@@ -1,5 +1,8 @@
 ﻿@page
 @model LabProject.Pages.IndexModel
+
+<h4 class="text-center mt-3" style="color:white; font-weight:bold;">Welcome, @Model.Username!</h4>
+
 @{
     ViewData["Title"] = "Class Management";
 }
@@ -182,7 +185,7 @@
 
 <style>
     .pagination .page-item.active .page-link {
-        background-color: #ff85c0; 
+        background-color: #ff85c0;
         border-color: #ff85c0;
         color: white;
     }
@@ -206,12 +209,12 @@
     }
 
     .btn-pink {
-        background-color: #ff69b4; 
+        background-color: #ff69b4;
         border: none;
         color: white;
     }
     .btn-pink:hover {
-        background-color: #ff85c0; 
+        background-color: #ff85c0;
         color: white;
     }
 </style>

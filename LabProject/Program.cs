@@ -1,7 +1,10 @@
 using Microsoft.EntityFrameworkCore;
 using LabProject.Data;
+using Microsoft.AspNetCore.Server.IISIntegration;  
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddAuthentication(IISDefaults.AuthenticationScheme);
 
 builder.Services.AddDbContext<SchoolDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("SchoolDbConnection")));
@@ -28,6 +31,9 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
+
+app.UseAuthentication();
+
 app.UseAuthorization();
 app.UseSession(); 
 app.MapRazorPages();

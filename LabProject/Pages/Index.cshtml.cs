@@ -6,6 +6,7 @@ using System.Text;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using LabProject.Helpers;
+using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace LabProject.Pages
 {
@@ -16,6 +17,14 @@ namespace LabProject.Pages
         public IndexModel(SchoolDbContext context)
         {
             _context = context;
+        }
+
+        public string? Username { get; set; }
+
+        public override void OnPageHandlerExecuting(PageHandlerExecutingContext context)
+        {
+            Username = User.Identity?.Name ?? "Unknown User";
+            base.OnPageHandlerExecuting(context);
         }
 
         [BindProperty]
@@ -60,7 +69,7 @@ namespace LabProject.Pages
             }
 
             var query = _context.Classes
-                .Where(c => c.IsActive) 
+                .Where(c => c.IsActive)
                 .AsQueryable();
 
             if (!string.IsNullOrWhiteSpace(SearchClassName))
@@ -125,7 +134,7 @@ namespace LabProject.Pages
                     existing.Name = NewClass.Name;
                     existing.PersonCount = NewClass.PersonCount;
                     existing.Description = NewClass.Description;
-                    existing.IsActive = true; 
+                    existing.IsActive = true;
                     await _context.SaveChangesAsync();
                 }
             }
@@ -136,7 +145,7 @@ namespace LabProject.Pages
                     Name = NewClass.Name,
                     PersonCount = NewClass.PersonCount,
                     Description = NewClass.Description,
-                    IsActive = true 
+                    IsActive = true
                 };
 
                 _context.Classes.Add(newClass);
@@ -157,7 +166,7 @@ namespace LabProject.Pages
             var item = await _context.Classes.FindAsync(id);
             if (item != null)
             {
-                item.IsActive = false; // Fiziksel silme yerine pasif yap
+                item.IsActive = false;
                 await _context.SaveChangesAsync();
             }
 
@@ -181,7 +190,7 @@ namespace LabProject.Pages
                 : SelectedRowIds.Split(',').Select(int.Parse).ToList();
 
             var query = _context.Classes
-                .Where(c => c.IsActive) 
+                .Where(c => c.IsActive)
                 .AsQueryable();
 
             if (selectedIds.Any())
